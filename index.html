@@ -2,12 +2,15 @@
 <html>
 <head>
     <title>SPVIE - Landing Page</title>
+    <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" href="section1.css">
     <link rel="stylesheet" type="text/css" href="section2.css">
     <link rel="stylesheet" type="text/css" href="section3.css">
     <link rel="stylesheet" type="text/css" href="section4.css">
     <link rel="stylesheet" type="text/css" href="section5.css">
     <link rel="stylesheet" type="text/css" href="section6.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Suez+One&family=Raleway&display=swap');
@@ -107,7 +110,7 @@
                         <div class="form-column">
                             <img src="img/recaptcha.png" alt="Recaptcha Placeholder" class="recaptcha">
                         </div>
-                        <div class="form-column">
+                        <div class="form-column-button">
                             <button type="submit" class="submit-button">Recevoir un devis</button>
                     </div>
                 </div>
@@ -337,15 +340,16 @@
     <section class="mobile-app">
         <div class="section5">
             <div class="flex-mobileapp flex flex-row justify-between p-5">
-                <div class="mobile-app-item phone-img"><img src="img/mobileapp.png" alt="mobile" /></div>
+                <div class="mobile-app-item phone-img desktop-version"><img src="img/mobileapp.png" alt="mobile" /></div>
                 <div class="mobile-app-item mobileapp-desc">
-                    <h3 class="section5-header"><b>ET POUR NOS TOUS ASSURÉS,</b> UNE APPLICATION MOBILE ! </h3>
+                    <h3 class="section5-header"><b>ET POUR TOUS NOUS ASSURÉS,</b> UNE APPLICATION MOBILE ! </h3>
                     <h5><b>Téléchargez l’application SPVIE Assurances</b> et suivez la vie de votre contrat santé, envoyez vos documents, téléchargez votre carte de tiers-payant directement depuis votre smartphone.</h5>
                     <div class="store flex row justify-around p-5 mt-5">
                         <img src="img/googleplay.png" alt="">
                         <img src="img/appstore.png" alt="">
                     </div>
                 </div>
+                <div class="mobile-app-item phone-img mobile-version"><img src="img/mobileapp.png" alt="mobile" /></div>
             </div>
 </div>
     </section>
@@ -353,22 +357,81 @@
     <section class="reviews">
         <div class="section6">
           <h2>Ce que <b>NOS ASSURÉS PENSENT</b></h2>
-          <div class="grid-container">
-            <main class="grid-item main">
-              <div class="reviews">
-                <div class="review review1"><img src="img/avis.png" alt=""></div>
-                <div class="review review2"><img src="img/avis.png" alt=""></div>
-                <div class="review review3"><img src="img/avis.png" alt=""></div>
-                <div class="review review4"><img src="img/avis.png" alt=""></div>
-              </div>
-            </main>
-          </div>
+        </div>
+          <div class="review-container">
+            <div class="owl-carousel owl-theme">
+                <div class="review">
+                    <img src="img/avis-1.png" alt="">
+                </div>
+                <div class="review">
+                    <img src="img/avis-1.png" alt="">
+                </div>
+                <div class="review">
+                    <img src="img/avis-1.png" alt="">
+                </div>
+                <div class="review">
+                    <img src="img/avis-1.png" alt="">
+                </div>
+                <div class="review">
+                    <img src="img/avis-1.png" alt="">
+                </div>
+
         </div>
       </section>
-    <footer>
-        <!-- Footer content -->
-    </footer>
+      <section class="about-us">
+        <div class="about-us-content">
+          <p>SPVIE Assurances • SAS au capital de 48.868,30 € • Siège social : 26 rue Pagès, 92150 SURESNES • RCS de Nanterre n° 525 355 251 • Courtier en assurances immatriculé à l’ORIAS sous le n°10 058 151 (www.orias.fr) et soumis au contrôle de l’ACPR, 4 Place de Budapest-CS 92459- 75436 PARIS CEDEX 09 • La liste des assureurs partenaires est disponible sur https://www.spvie.com/partenaires • Réclamation : Service Réclamation, 26 rue Pagès, 92150 SURESNES ou reclamations@spvie.com • Médiation : Dans le cas où le service réclamation ne vous aurait pas apporté de réponse satisfaisante, vous pouvez saisir le Médiateur de l’Assurance à l’adresse suivante :  La Médiation de l’Assurance, Pole CSCA, TSA 50110, 75441 Paris Cedex 09 ou le.mediateur@mediation-assurance.org.</p>
+        </div>
+      </section>
+      
+      <footer>
+        <div class="container">
+          <div class="footer-columns">
+            <div class="footer-column">
+                <div class="logo">
+                    <img src="img/logo.png" alt="Logo">
+                </div>
+              </div>
+            <div class="footer-column">
+              <h3>Espace assuré</h3>
+              <h3>Espace entreprise</h3>
+              <h3>Espace courtier</h3>
+            </div>
+            <div class="footer-column">
+                <h3>On résilie pour vous</h3>
+                <h3>Recrutement</h3>
+                <h3>Partenaires</h3>
+              </div>
+              <div class="footer-column">
+                <h3>Nous contacter</h3>
+                <h3>Nous connaitre</h3>
+              </div>
+              <div class="footer-column">
+                <h3>Informations légales</h3>
+                <h3>Politique des données personnelles</h3>
+              </div>
+          </div>
+        </div>
+      </footer>
     <script type="text/javascript" src="js/carousel.js"></script>
-    <script type="text/javascript" src="js/review-slide.js"></script>
+    <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
+    <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+        center: false,
+        items:2,
+        loop:false,
+        margin:40,
+          responsive: {
+            0: {
+              items: 1
+            },
+            600: {
+              items: 3.5
+            },
+          }
+        })
+  </script>
 </body>
 </html>

@@ -1,0 +1,76 @@
+/* Reset default margin and padding */
+body, footer, section, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set font family and font size for the "About Us" section */
+  .about-us {
+    font-family: "Railway", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .about-us-content p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  
+  /* Set font size for the "About Us" section on mobile */
+  @media (max-width: 480px) {
+    .about-us-content p {
+      font-size: 10px;
+    }
+  }
+  
+  /* Set background color and text color for the footer */
+  footer {
+    background-color: #f6eeeb;
+    color: #000;
+  }
+  
+  /* Set padding and center the content within the container */
+  .container {
+    padding: 20px;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  
+  /* Create columns using flexbox */
+  .footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Define styles for individual footer columns */
+  .footer-column {
+    width: calc(20% - 20px);
+    margin-bottom: 20px;
+  }
+
+  .footer-column h3 {
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  
+  /* Responsive styles for mobile devices */
+  @media (max-width: 480px) {
+    .footer-column {
+      width: 100%;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .footer-column h3 {
+        text-align: center;
+      }
+  }

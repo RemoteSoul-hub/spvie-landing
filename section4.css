@@ -42,3 +42,13 @@
 .request:hover {
     background-color: #00B57F;
 }
+
+@media only screen and (max-width: 480px) {
+    .section4 {
+        border-radius: 20px;
+        background-color: #fff;
+        max-width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
