@@ -1,0 +1,47 @@
+.mobile-app {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section5 {
+    border-radius: 20px;
+    background-color: #f6eeeb;
+    max-width: 1500px;
+    margin-left: auto;
+    padding: 0px;
+    margin-right: auto;
+}
+
+.section5-header {
+    text-align: justify;
+}
+.mobile-app-item {
+    padding: 0 20px;
+}
+
+.flex-mobileapp {
+    align-items: center;
+    gap: 120px;
+}
+.phone-img {
+    flex-basis: 10%;
+}
+
+.phone-img img{
+    width: 226px;
+}
+
+.mobileapp-desc {
+    flex-basis: 90%;
+}
+
+.mobile-app-item h3 {
+    font-weight: 400;
+    font-family: 'Raleway';
+    font-size: 30px !important;
+}
+
+.store img {
+    width: 160px;
+}
+

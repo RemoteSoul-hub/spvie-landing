@@ -1,0 +1,39 @@
+.benefits {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.benefit {
+    text-align: center;
+    max-width: 200px;
+}
+
+.benefit img {
+    height: 35px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .benefits {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding: 12.5px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .benefit {
+        margin-bottom: 25px;
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .benefit img {
+        height: 35px;
+        margin-bottom: 5px;
+    }
+}
